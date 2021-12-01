@@ -6,17 +6,17 @@
 
 	"sections":[
 		{"name":"REPUBLIC DETACHMENTS", "formations":[
-			{"id":543, "name":"Clone Troopers (Tactical)",		            "pts":275, "units":"6 Tacticals", "upgrades":[15,17,18]},
-			{"id":532, "name":"Clone Jet Troopers (Assault)", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,17,18]},
-			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator)",	"pts":250, "units":"4 Devastators", "upgrades":[15,17,18]},
-			{"id":533, "name":"Arc Troopers (Terminator)",		            "pts":350, "units":"4 Terminators", "upgrades":[15,17,18]},
-			{"id":539, "name":"BARC Speeders (Bike)", 			            "pts":160, "upgrades":["4 BARC stands"]},
-			{"id":544, "name":"AT-RT Walker Company (Sentinel)",                 "pts": 100, "units": "4 AT-RTs", "upgrades": []},
-			{"id":535, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 L-R Conquerors", "upgrades":[]},
-			{"id":536, "name":"AT-TE Company (Baneblade)", 							"pts":500, "units":"3 AT-TEs", "upgrades":[]},
-			{"id":538, "name":"AT-TE Platoon (Baneblade)", 							"pts":200, "units":"1 AT-TE", "upgrades":[]},
-			{"id":546, "name":"AV-7 Artillery Company (Manticore)",					"pts":250, "units":"3 AV-7s", "upgrades":[]},
-			{"id":547, "name":"LAAT/i Gunship Squadron (Vulture)",					"pts":300, "units":"4 LAAT/i Gunships", "upgrades":[]}
+			{"id":543, "name":"Clone Troopers (Tactical [SM])",		            "pts":300, "units":"6 Tacticals", "upgrades":[15,17,18]},
+			{"id":532, "name":"Clone Jet Troopers (Assault [SM])", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,17,18]},
+			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator [SM])",	"pts":250, "units":"4 Devastators", "upgrades":[15,17,18]},
+			{"id":533, "name":"Arc Troopers (Terminator [SM])",		            "pts":350, "units":"4 Terminators", "upgrades":[15,17,18]},
+			{"id":539, "name":"BARC Speeders (Bike [SM])", 			            "pts":160, "upgrades":["4 BARC stands"]},
+			{"id":544, "name":"AT-RT Walker Company (Sentinel [IG])",                 "pts": 100, "units": "4 AT-RTs", "upgrades": []},
+			{"id":535, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror [IG])", "pts":290, "units": "6 L-R Conquerors", "upgrades":[]},
+			{"id":536, "name":"AT-TE Company (Baneblade [IG])", 							"pts":500, "units":"3 AT-TEs", "upgrades":[]},
+			{"id":538, "name":"AT-TE Platoon (Baneblade IG])", 							"pts":200, "units":"1 AT-TE", "upgrades":[]},
+			{"id":546, "name":"AV-7 Artillery Company (Manticore [IG])",					"pts":250, "units":"3 AV-7s", "upgrades":[]},
+			{"id":547, "name":"LAAT/i Gunship Squadron (Vulture [IG])",					"pts":300, "units":"4 LAAT/i Gunships", "upgrades":[]}
 		]},
 		{"name":"REPUBLIC FLEET", "formations":[
 			{"id":550, "name":"TODO: Thunderhawk",		"pts":200, "upgrades":[]},
