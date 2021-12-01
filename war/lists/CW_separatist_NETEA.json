@@ -10,7 +10,7 @@
 			{"id":532, "name":"B2 Rocket Droids (Assault [SM])", 		        "pts":175, "units":"4 B2 Rocket Droid stands", "upgrades":[15,17,18]},
 			{"id":534, "name":"B1 Heavy Battle Droids (Devastator [SM])",		"pts":250, "units":"4 B1 Heavy Droid stands", "upgrades":[15,17,18]},
 			{"id":533, "name":"B2 Battle Droids (Terminator [SM])",		        "pts":350, "units":"4 B2 Battle Droid stands", "upgrades":[15,17,18]},
-			{"id":539, "name":"STAP Speeders (Bike [SM])", 			            "pts":120, "upgrades":["3 STAPs"]},
+			{"id":539, "name":"STAP Speeders (Bike [SM])", 			            "pts":120, "units":["3 STAPs"], "upgrades":[]},
 			{"id":544, "name":"Droid Speeders (Land Speeder [SM])",              "pts": 120, "units": "3 Droid speeder stands", "upgrades": []},
 			{"id":535, "name":"AAT Tank Company (Leman Russ Conqueror [IG])", 	"pts":290, "units": "6 AAT Tank stands", "upgrades":[]},
 			{"id":536, "name":"NR-N99 Persuader Droid Enforcer Company (Land Raider [SM])", "pts":270, "units":"3 NR-N99 Persuader Droid stands", "upgrades":[]},

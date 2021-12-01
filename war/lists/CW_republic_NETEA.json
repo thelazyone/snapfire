@@ -10,7 +10,7 @@
 			{"id":532, "name":"Clone Jet Troopers (Assault [SM])", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,17,18]},
 			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator [SM])",	"pts":250, "units":"4 Devastators", "upgrades":[15,17,18]},
 			{"id":533, "name":"Arc Troopers (Terminator [SM])",		            "pts":350, "units":"4 Terminators", "upgrades":[15,17,18]},
-			{"id":539, "name":"BARC Speeders (Bike [SM])", 			            "pts":120, "upgrades":["3 BARC stands"]},
+			{"id":539, "name":"BARC Speeders (Bike [SM])", 			            "pts":120, "units":["3 BARC stands"], "upgrades":[]},
 			{"id":544, "name":"AT-RT Walker Company (Sentinel [IG])",                 "pts": 75, "units": "3 AT-RTs", "upgrades": []},
 			{"id":535, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror [IG])", "pts":290, "units": "6 TX-130s", "upgrades":[]},
 			{"id":536, "name":"AT-TE Company (Baneblade [IG])", 							"pts":500, "units":"3 AT-TEs", "upgrades":[]},
