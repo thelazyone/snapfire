@@ -15,7 +15,8 @@
 			{"id":535, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 L-R Conquerors", "upgrades":[]},
 			{"id":536, "name":"AT-TE Company (Baneblade)", 							"pts":500, "units":"3 AT-TEs", "upgrades":[]},
 			{"id":538, "name":"AT-TE Platoon (Baneblade)", 							"pts":200, "units":"1 AT-TE", "upgrades":[]},
-			{"id":546, "name":"AV-7 Artillery Company (Manticore)",					"pts":250, "units":"3 AV-7s", "upgrades":[]}
+			{"id":546, "name":"AV-7 Artillery Company (Manticore)",					"pts":250, "units":"3 AV-7s", "upgrades":[]},
+			{"id":547, "name":"LAAT/i Gunship Squadron (Vulture)",					"pts":300, "units":"4 LAAT/i Gunships", "upgrades":[]}
 		]},
 		{"name":"REPUBLIC FLEET", "formations":[
 			{"id":550, "name":"TODO: Thunderhawk",		"pts":200, "upgrades":[]},
