@@ -9,9 +9,9 @@
 			{"id":543, "name":"B1 Battle Droids (Tactical)",		            "pts":275, "units":"6 B1 Battle Droid stands", "upgrades":[15,17,18]},
 			{"id":532, "name":"B2 Rocket Droids (Assault)", 		        "pts":175, "units":"4 B2 Rocket Droid stands", "upgrades":[15,17,18]},
 			{"id":534, "name":"B1 Heavy Battle Droids (Devastator)",	"pts":250, "units":"4 B1 Heavy Droid stands", "upgrades":[15,17,18]},
-			{"id":533, "name":"B2 Battle Droids (Terminator)",		            "pts":350, "units":"4 B2 Droid stands", "upgrades":[15,17,18]},
-			{"id":539, "name":"STAP Speeders (Bike)", 			            "pts":200, "upgrades":[]},
-			{"id":544, "name":"Droid Speeders (???)",                 "pts": 100, "units": "4 Droid speeder stands", "upgrades": []},
+			{"id":533, "name":"B2 Battle Droids (Terminator)",		            "pts":350, "units":"4 B2 Battle Droid stands", "upgrades":[15,17,18]},
+			{"id":539, "name":"STAP Speeders (Bike)", 			            "pts":200, "upgrades":["4 STAPs"]},
+			{"id":544, "name":"Droid Speeders (???)",                 "pts": 160, "units": "4 Droid speeder stands", "upgrades": []},
 			{"id":535, "name":"AAT Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 AAT Tank stands", "upgrades":[]},
 			{"id":536, "name":"NR-N99 Persuader Droid Enforcer Company (???)", 	"pts":500, "units":"3 NR-N99 Persuader Droid stands", "upgrades":[]},
 			{"id":546, "name":"J1 Proton Cannon (Manticore)",					"pts":250, "units":"3 J1 Proton Cannon stands", "upgrades":[]}
