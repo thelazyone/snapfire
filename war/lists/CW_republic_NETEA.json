@@ -1,81 +1,64 @@
 {
-	"id":"Republic",
-	"version":"EA Rulebook Oct09",
-	"by":"T1ckL35",
+	"id":"Republic ",
+	"version":"Based on NetEA Tournament Pack 2018",
+	"by":"T1ckL35, latest edit 01-12-2021 T1ckL35",
+  "notes":["Add here"],
+
 	"sections":[
-		{"name":"DETACHMENTS", "formations":[
-			{"id":500, "name":"Clone Jet Trooper Detachment (Assault)", 		"pts":175, "units":"4 Assault units", "upgrades":[10,11,12,13,24]},
-			{"id":501, "name":"BARC Speeder Detachment (Bike)", 			"pts":200, "upgrades":[10,11,12,13]},
-			{"id":502, "name":"Devastator Detachment",	"pts":250, "units":"4 Devastators", "upgrades":[10,11,12,13,20,21,40,50,51,52,53,54,60,61,62,63,64,65]},
-			{"id":503, "name":"Land Raiders",				"pts":400, "units":"4 Land Raiders", "upgrades":[10,11,12,13,21,24]},
-			{"id":504, "name":"Land Speeders",				"pts":200, "upgrades":[10,11,12,13]},
-			{"id":506, "name":"Predators",					"pts":300, "upgrades":[10,11,12,13,21,24]},
-			{"id":507, "name":"Scout Detachment",			"pts":150, "units":"4 Scouts", "upgrades":[10,11,12,13,23,40,50,51,52,53,54]},
-			{"id":511, "name":"Clone Trooper Detachment (Tactical)",		"pts":300, "units":"6 Tacticals", "upgrades":[10,11,12,13,20,21,24,40,41,42,43,44,45,46,47]},
-			{"id":512, "name":"Arc Trooper Detachment (Terminators)",	"pts":325, "units":"4 Terminators", "upgrades":[10,11,12,13,24,20,22]}
+		{"name":"REPUBLIC DETACHMENTS", "formations":[
+			{"id":532, "name":"Clone Troopers (Tactical)",		            "pts":275, "units":"6 Tacticals", "upgrades":[15,16,17,18,26,21,22,23,27,31,32,11,12]},
+			{"id":533, "name":"Clone Jet Troopers (Assault)", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,16,17,18,31,32]},
+			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator)",	"pts":250, "units":"4 Devastators", "upgrades":[15,16,17,18,26,21,22,23,27,11,12]},
+			{"id":535, "name":"Arc Troopers (Terminator)",		            "pts":350, "units":"4 Terminators", "upgrades":[15,16,17,18,31,32,21,23,27]},
+			{"id":536, "name":"BARC Speeders (Bike)", 			            "pts":200, "upgrades":[]},
+			{"id":537, "name": "AT-RT Walker Company (Sentinel)",                 "pts": 100, "units": "4 AT-RTs", "upgrades": [] },
+			{"id":538, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 L-R Conquerors", "upgrades":[]},
+			{"id":539, "name":"AT-TE Company (Baneblade)", 							"pts":500, "units":"3 AT-TEs", "upgrades":[]},
+			{"id":540, "name":"AT-TE Platoon (Baneblade)", 							"pts":200, "units":"1 AT-TE", "upgrades":[]},
+			{"id":541, "name":"AV-7 Artillery Company (Manticore)",					"pts":250, "units":"3 AV-7s", "upgrades":[]}
+		]},
+		{"name":"REPUBLIC FLEET", "formations":[
+			{"id":550, "name":"TODO: Thunderhawk",		"pts":200, "upgrades":[]},
+			{"id":551, "name":"TODO: Landing Craft",	"pts":350, "units":"1 Landing Craft", "upgrades":[]},
+			{"id":552, "name":"TODO: Strike Cruiser", "pts":200, "upgrades":[]},
+			{"id":553, "name":"TODO: Battle Barge",		"pts":350, "upgrades":[]}
 		]},
 		{"name":"REPUBLIC NAVY", "formations":[
-			{"id":517, "name":"Thunderbolt Fighters",		"pts":150, "units":"2 Fighters"},
-			{"id":518, "name":"Marauder Bombers",			"pts":300, "units":"2 Bombers"}
+			{"id":560, "name":"TODO: Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":561, "name":"TODO: Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Maurader bombers"}
 		]},
 		{"name":"REPUBLIC TITAN LEGIONS", "formations":[
-			{"id":520, "name":"Warlord Class Titan",		"pts":850},
-			{"id":521, "name":"Reaver Class Titan",		"pts":650},
-			{"id":522, "name":"Warhound Titan",				"pts":250}
+			{"id":570, "name":"TODO: Warhound", "units":"1 Warhound Class Titan",		"pts":275, "upgrades":[]},
+			{"id":571, "name":"TODO: Warhound Pack", "units":"2x Warhound Class Titan",	"pts":500, "upgrades":[]},
+			{"id":572, "name":"TODO: Reaver", "units":"1 Reaver Class Titan",	"pts":650, "upgrades":[]},
+			{"id":573, "name":"TODO: Warlord", "units":"1 Warlord Class Titan", "pts":825, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":1, "name":"Bike Unit",								"pts":0},
-		{"id":2, "name":"Attack Bike", 							"pts":0},
-		{"id":3, "name":"Tornado",									"pts":10},
-		{"id":4, "name":"Typhoon",									"pts":25},
-		{"id":5, "name":"Annihilator",							"pts":0},
-		{"id":6, "name":"Destructor",								"pts":0},
-                {"id":7, "name":"Land Speeder", "pts":0},
-		{"id":10, "name":"Captain",								"pts":50},
-		{"id":11, "name":"Chaplain", 								"pts":50},
-		{"id":12, "name":"Librarian", 							"pts":50},
-		{"id":13, "name":"Supreme Commander",					"pts":100},
-		{"id":20, "name":"Dreadnought", 							"pts":50},
-		{"id":21, "name":"Hunter", 								"pts":75},
-		{"id":22, "name":"Land Raider", 							"pts":100},
-		{"id":23, "name":"Sniper",									"pts":25},
-		{"id":24, "name":"Vindicator",							"pts":75},	
-		{"id":40, "name":"Drop Pods",								"pts":0},
-		{"id":41, "name":"3 Rhinos",								"pts":0},
-		{"id":42, "name":"Razorback, 3 Rhinos",				"pts":25},
-		{"id":43, "name":"2 Razorbacks, 2 Rhinos",			"pts":50},
-		{"id":44, "name":"3 Razorbacks, 2 Rhinos",			"pts":75},
-		{"id":45, "name":"4 Razorbacks, Rhino",				"pts":100},
-		{"id":46, "name":"5 Razorbacks, Rhino",				"pts":125},
-		{"id":47, "name":"6 Razorbacks",							"pts":150},
-		{"id":50, "name":"2 Rhinos",								"pts":0},
-		{"id":51, "name":"Razorback, 2 Rhinos",				"pts":25},
-		{"id":52, "name":"2 Razorbacks, Rhino",				"pts":50},
-		{"id":53, "name":"3 Razorbacks, Rhino",				"pts":75},
-		{"id":54, "name":"4 Razorbacks",							"pts":100},
-		{"id":60, "name":"Land Raider, Rhino",					"pts":100},
-		{"id":61, "name":"Land Raider, Razorback, Rhino",	"pts":125},		
-		{"id":62, "name":"Land Raider, 2 Razorbacks",		"pts":150},		
-		{"id":63, "name":"2 Land Raiders",						"pts":200},
-		{"id":64, "name":"3 Land Raiders",						"pts":300},
-		{"id":65, "name":"4 Land Raiders",						"pts":400}
-	],
-	"upgradeConstraints":[
-		{"max":1, "perArmy":true, "from":[13]},
-		{"max":1, "name":"Transport", "from":[40,41,42,43,44,45,46,47,50,51,52,53,54,60,61,62,63,64,65]},
-		{"max":1, "name":"Commander", "from":[10,11,12,13]},
-		{"max":2, "from":[20]},
-		{"max":1, "from":[21]},
-		{"max":4, "from":[22]},
-		{"max":1, "from":[23]},
-		{"max":2, "from":[24]},
-		{"min":5, "max":5, "from":[1,2], "appliesTo":[501]},
-		{"min":5, "max":5, "from":[7,3,4], "appliesTo":[504]},
-		{"min":4, "max":4, "from":[5,6], "appliesTo":[506]}
-	],
-	"formationConstraints":[
-		{"max":1, "name":"Spacecraft", "from":[509,510]},
-		{"maxPercent":33, "name":"War Engines & Navy", "from":[517,518,520,521,522]}
-	]	
+		{"id":11, "name":"Rhinos",			"pts":0},
+		{"id":12, "name":"Drop Pods",		"pts":0},
+		{"id":14, "name":"Bike Unit",		"pts":0},
+		{"id":13, "name":"Attack Bike", 	"pts":0},
+		{"id":24, "name":"Annihilator",		"pts":0},
+		{"id":25, "name":"Destructor",		"pts":0},
+		{"id":28, "name":"Landspeeder",		"pts":0},
+		{"id":29, "name":"Landspeeder Tornado",		"pts":0},
+		{"id":30, "name":"Landspeeder Typhoon",		"pts":10},
+
+		{"id":15, "name":"Captain",		"pts":50},
+		{"id":16, "name":"Chaplain", 		"pts":50},
+		{"id":17, "name":"Librarian", 		"pts":50},
+		{"id":18, "name":"Supreme Commander",	"pts":100},
+
+		{"id":21, "name":"Dreadnought", 					"pts":50},
+		{"id":22, "name":"Hunter", 						"pts":75},
+		{"id":23, "name":"Land Raider", 					"pts":75},
+		{"id":27, "name":"2x Land Raider", 					"pts":125},
+		{"id":26, "name":"Razorback",						"pts":25},
+		{"id":40, "name":"Scouts",						"pts":0},
+		{"id":41, "name":"Scout Snipers",						"pts":10},
+		{"id":31, "name":"Vindicator",						"pts":50},
+		{"id":32, "name":"2x Vindicator",					"pts":75}
+	]
+
 }
