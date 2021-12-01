@@ -10,12 +10,12 @@
 			{"id":533, "name":"Clone Jet Troopers (Assault)", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,16,17,18,31,32]},
 			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator)",	"pts":250, "units":"4 Devastators", "upgrades":[15,16,17,18,26,21,22,23,27,11,12]},
 			{"id":535, "name":"Arc Troopers (Terminator)",		            "pts":350, "units":"4 Terminators", "upgrades":[15,16,17,18,31,32,21,23,27]},
-			{"id":536, "name":"BARC Speeders (Bike)", 			            "pts":200, "upgrades":[]},
-			{"id":537, "name": "AT-RT Walker Company (Sentinel)",                 "pts": 100, "units": "4 AT-RTs", "upgrades": [] },
-			{"id":538, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 L-R Conquerors", "upgrades":[]},
-			{"id":539, "name":"AT-TE Company (Baneblade)", 							"pts":500, "units":"3 AT-TEs", "upgrades":[]},
-			{"id":540, "name":"AT-TE Platoon (Baneblade)", 							"pts":200, "units":"1 AT-TE", "upgrades":[]},
-			{"id":541, "name":"AV-7 Artillery Company (Manticore)",					"pts":250, "units":"3 AV-7s", "upgrades":[]}
+			{"id":536, "name":"BARC Speeders (Bike)", 			            "pts":200, "upgrades":[11]},
+			{"id":537, "name": "AT-RT Walker Company (Sentinel)",                 "pts": 100, "units": "4 AT-RTs", "upgrades": [11]},
+			{"id":538, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 L-R Conquerors", "upgrades":[11]},
+			{"id":539, "name":"AT-TE Company (Baneblade)", 							"pts":500, "units":"3 AT-TEs", "upgrades":[11]},
+			{"id":540, "name":"AT-TE Platoon (Baneblade)", 							"pts":200, "units":"1 AT-TE", "upgrades":[11]},
+			{"id":541, "name":"AV-7 Artillery Company (Manticore)",					"pts":250, "units":"3 AV-7s", "upgrades":[11]}
 		]},
 		{"name":"REPUBLIC FLEET", "formations":[
 			{"id":550, "name":"TODO: Thunderhawk",		"pts":200, "upgrades":[]},
