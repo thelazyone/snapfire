@@ -6,10 +6,10 @@
 
 	"sections":[
 		{"name":"REPUBLIC DETACHMENTS", "formations":[
-			{"id":543, "name":"Clone Troopers (Tactical)",		            "pts":275, "units":"6 Tacticals", "upgrades":[15,16,17,18,26,21,22,23,27,31,32,11,12]},
-			{"id":532, "name":"Clone Jet Troopers (Assault)", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,16,17,18,31,32]},
-			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator)",	"pts":250, "units":"4 Devastators", "upgrades":[15,16,17,18,26,21,22,23,27,11,12]},
-			{"id":533, "name":"Arc Troopers (Terminator)",		            "pts":350, "units":"4 Terminators", "upgrades":[15,16,17,18,31,32,21,23,27]},
+			{"id":543, "name":"Clone Troopers (Tactical)",		            "pts":275, "units":"6 Tacticals", "upgrades":[15,17,18]},
+			{"id":532, "name":"Clone Jet Troopers (Assault)", 		        "pts":175, "units":"4 Assault Units", "upgrades":[15,17,18]},
+			{"id":534, "name":"Clone Heavy Assault Troopers (Devastator)",	"pts":250, "units":"4 Devastators", "upgrades":[15,17,18]},
+			{"id":533, "name":"Arc Troopers (Terminator)",		            "pts":350, "units":"4 Terminators", "upgrades":[15,17,18]},
 			{"id":539, "name":"BARC Speeders (Bike)", 			            "pts":200, "upgrades":[]},
 			{"id":544, "name":"AT-RT Walker Company (Sentinel)",                 "pts": 100, "units": "4 AT-RTs", "upgrades": []},
 			{"id":535, "name":"TX-130 Saber-Class Tank Company (Leman Russ Conqueror)", "pts":290, "units": "6 L-R Conquerors", "upgrades":[]},
