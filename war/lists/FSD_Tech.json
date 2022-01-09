@@ -16,9 +16,9 @@
 			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[15,17,18]}
 		]},
 		{"name":"Support Cards", "formations":[
-			{"id":548, "name":"Orbital Deployment",		                   "pts":2, "units":"Unpin a pinned unit under your control that can still be activated this round. Discard this card afterwards.", "upgrades":[15,17]},
-			{"id":549, "name":"Orbital Bombing", 		                       "pts":4, "units":"2 armoured infantry bases", "upgrades":[]},
-			{"id":550, "name":"Softweare Upgrade",	                   "pts":1, "units":"desc", "upgrades":[]}
+			{"id":548, "name":"Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents.", "upgrades":[15,17]},
+			{"id":549, "name":"Orbital Bombing", 		"pts":4, "units":"Discard after use.", "upgrades":[]},
+			{"id":550, "name":"Software Upgrade",	    "pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards.", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
