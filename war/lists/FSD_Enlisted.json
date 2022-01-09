@@ -17,6 +17,16 @@
 			{"id":538, "name":"Tank Hunter", 						   "pts":6, "units":"1 base", "upgrades":[15,18]},
 			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[15,18]},
 			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[15]}
+		]},
+		{"name":"Support Cards", "formations":[
+			{"id":548, "name":"Direct Comand",		                   "pts":1, "units":"Unpin a pinned unit under your control that can still be activated this round. Discard this card afterwards.", "upgrades":[15,17]},
+			{"id":549, "name":"Strafing Run", 		                       "pts":7, "units":"2 armoured infantry bases", "upgrades":[]},
+			{"id":550, "name":"Satellite Uplink",	                   "pts":3, "units":"desc", "upgrades":[]},
+			{"id":551, "name":"Airstrike",		               "pts":7, "units":"desc", "upgrades":[]},
+			{"id":552, "name":"Spotter Drones", 			           "pts":2, "units":["desc"], "upgrades":[]},
+			{"id":553, "name":"Jamming",                         "pts":3, "units":"desc", "upgrades":[]},
+			{"id":554, "name":"Mortar Fire",                         "pts":6, "units":"desc", "upgrades":[]},
+			{"id":555, "name":"Guided Missile",                         "pts":2, "units":"desc", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
