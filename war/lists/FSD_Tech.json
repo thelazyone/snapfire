@@ -1,8 +1,8 @@
 {
-	"id":"Separatist",
-	"version":"Based on NetEA Tournament Pack 2018",
-	"by":"T1ckL35, latest edit 01-12-2021 T1ckL35",
-  "notes":["Add here"],
+	"id":"Tech",
+	"version":"0.12",
+	"by":"T1ckL35, latest edit 09-01-2021 (dd-mm-yyyy) - T1ckL35",
+    "notes":["Add here"],
 
 	"sections":[
 		{"name":"SEPARATIST DETACHMENTS", "formations":[
