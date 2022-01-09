@@ -16,15 +16,15 @@
 			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[15,17,18]}
 		]},
 		{"name":"Support Cards", "formations":[
-			{"id":548, "name":"Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents.", "upgrades":[15,17]},
-			{"id":549, "name":"Orbital Bombing", 		"pts":4, "units":"Discard after use.", "upgrades":[]},
-			{"id":550, "name":"Software Upgrade",	    "pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards.", "upgrades":[]}
+			{"id":548, "name":"Support Card - Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents.", "upgrades":[15,17]},
+			{"id":549, "name":"Support Card - Orbital Bombing", 		"pts":4, "units":"Discard after use.", "upgrades":[]},
+			{"id":550, "name":"Support Card - Software Upgrade",	    "pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards.", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":15, "name":"Pilot AI",		"pts":2},
-		{"id":17, "name":"Sentient AI", 	"pts":3},
-		{"id":18, "name":"Fire Control AI",	"pts":3}
+		{"id":15, "name":"Character Card - Pilot AI",		"pts":2},
+		{"id":17, "name":"Character Card - Sentient AI", 	"pts":3},
+		{"id":18, "name":"Character Card - Fire Control AI",	"pts":3}
 	],
 	"formationConstraints":[],
 	"upgradeConstraints":[
