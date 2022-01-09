@@ -6,8 +6,8 @@
 
 	"sections":[
 		{"name":"Enlisted Detatchments", "formations":[
-			{"id":543, "name":"Infantrymen",		                   "pts":2, "units":"3 infantry bases", "upgrades":[15,17,19]},
-			{"id":532, "name":"Scouts", 		                       "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
+			{"id":543, "name":"Infantrymen",		                   "pts":2, "units":"3 infantry bases", "upgrades":[15,17]},
+			{"id":532, "name":"Scouts", 		                       "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17]},
 			{"id":534, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
 			{"id":533, "name":"Support Vehicle",		               "pts":3, "units":"1 base", "upgrades":[]},
 			{"id":539, "name":"Support Walker", 			           "pts":3, "units":["1 base"], "upgrades":[]},
@@ -22,8 +22,7 @@
 	"upgrades":[
 		{"id":15, "name":"General",		"pts":5},
 		{"id":17, "name":"Infantry Hero", 	"pts":4},
-		{"id":18, "name":"Tank Commander",	"pts":3},
-		{"id":19, "name":"Infantry NCO",	"pts":2}
+		{"id":18, "name":"Tank Commander",	"pts":3}
 	],
 	"upgradeConstraints":[
 		{"max":1, "name":"Cmdr", "from":[15,17,18]},
