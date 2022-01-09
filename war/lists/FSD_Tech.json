@@ -15,9 +15,7 @@
 			{"id":535, "name":"AAT Tank Company (Leman Russ Conqueror [IG])", 	"pts":290, "units": "6 AAT Tank stands", "upgrades":[]},
 			{"id":536, "name":"NR-N99 Persuader Droid Enforcer Company (Land Raider [SM])", "pts":270, "units":"3 NR-N99 Persuader Droid stands", "upgrades":[]},
 			{"id":546, "name":"J1 Proton Cannon (Manticore [IG])",				"pts":250, "units":"3 J1 Proton Cannon stands", "upgrades":[]}
-		]},
-		{"name":"SEPARATIST FLEET", "formations":[]},
-		{"name":"SEPARATIST TITAN LEGIONS", "formations":[]}
+		]}
 	],
 	"upgrades":[
 		{"id":15, "name":"T Series Tactical Droid",		"pts":50},
