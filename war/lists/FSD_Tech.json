@@ -6,26 +6,24 @@
 
 	"sections":[
 		{"name":"SEPARATIST DETACHMENTS", "formations":[
-			{"id":543, "name":"B1 Battle Droids (Tactical [SM])",		        "pts":300, "units":"6 B1 Battle Droid stands", "upgrades":[15,17,18]},
-			{"id":532, "name":"B2 Rocket Droids (Assault [SM])", 		        "pts":175, "units":"4 B2 Rocket Droid stands", "upgrades":[15,17,18]},
-			{"id":534, "name":"B1 Heavy Battle Droids (Devastator [SM])",		"pts":250, "units":"4 B1 Heavy Droid stands", "upgrades":[15,17,18]},
-			{"id":533, "name":"B2 Battle Droids (Terminator [SM])",		        "pts":350, "units":"4 B2 Battle Droid stands", "upgrades":[15,17,18]},
-			{"id":539, "name":"STAP Speeders (Bike [SM])", 			            "pts":120, "units":["3 STAPs"], "upgrades":[]},
-			{"id":544, "name":"Droid Speeders (Land Speeder [SM])",              "pts": 120, "units": "3 Droid speeder stands", "upgrades": []},
-			{"id":535, "name":"AAT Tank Company (Leman Russ Conqueror [IG])", 	"pts":290, "units": "6 AAT Tank stands", "upgrades":[]},
-			{"id":536, "name":"NR-N99 Persuader Droid Enforcer Company (Land Raider [SM])", "pts":270, "units":"3 NR-N99 Persuader Droid stands", "upgrades":[]},
-			{"id":546, "name":"J1 Proton Cannon (Manticore [IG])",				"pts":250, "units":"3 J1 Proton Cannon stands", "upgrades":[]}
+			{"id":543, "name":"Battle Droids",		    "pts":3, "units":"3 bases", "upgrades":[15,17,18]},
+			{"id":532, "name":"Heavy Droids", 		    "pts":4, "units":"2 bases", "upgrades":[15,17,18]},
+			{"id":534, "name":"Light Spider Droids",	"pts":2, "units":"2 bases", "upgrades":[15,17,18]},
+			{"id":533, "name":"Heavy Spider Droids",	"pts":4, "units":"2 bases", "upgrades":[15,17,18]},
+			{"id":539, "name":"Syro Runner Rig", 		"pts":3, "units":"1 base", "upgrades":[15,17,18]},
+			{"id":544, "name":"Zeno Battle Rig",        "pts":5, "units":"1 base", "upgrades":[15,17,18]},
+			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base", "upgrades":[15,17,18]},
+			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[15,17,18]}
 		]}
 	],
 	"upgrades":[
-		{"id":15, "name":"T Series Tactical Droid",		"pts":50},
-		{"id":17, "name":"Sith Apprentice", 	"pts":50},
-		{"id":18, "name":"Sith Lord",	"pts":100}
+		{"id":15, "name":"Pilot AI",		"pts":2},
+		{"id":17, "name":"Sentient AI", 	"pts":3},
+		{"id":18, "name":"Fire Control AI",	"pts":3}
 	],
 	"formationConstraints":[],
 	"upgradeConstraints":[
-		{"max":1, "name":"Cmdr", "from":[15,17,18]},
-		{"max":1, "perArmy":true, "from":[18]}
+		{"max":1, "name":"Cmdr", "from":[15,17,18]}
 	]
 
 }
