@@ -28,7 +28,9 @@
 	],
 	"formationConstraints":[],
 	"upgradeConstraints":[
-		{"max":1, "name":"Character", "from":[15,17,18]}
+		{"max":1, "name":"Pilot AI", "from":[15]},
+		{"max":1, "name":"Sentient AI", "from":[17]},
+		{"max":1, "name":"Fire Control AI", "from":[18]}
 	]
 
 }
