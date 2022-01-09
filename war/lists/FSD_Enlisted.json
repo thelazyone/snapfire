@@ -20,13 +20,13 @@
 		]},
 		{"name":"Support Cards", "formations":[
 			{"id":548, "name":"Card - Direct Comand",		          "pts":1, "units":"Unpin a pinned unit under your control that can still be activated this round. Discard this card afterwards."},
-			{"id":549, "name":"Support Card - Strafing Run", 		          "pts":7, "units":"Plot a 4DU-long line on the table. The Heavy Minigun targets once every unit whose bases touch it.", "upgrades":[]},
-			{"id":550, "name":"Support Card - Satellite Uplink",	          "pts":3, "units":"Roll up to three Activation Dice from the spent pile. Discard this card afterwards.", "upgrades":[]},
-			{"id":551, "name":"Support Card - Airstrike",		              "pts":7, "units":"Target up to two different units that are distance up to 2DU.", "upgrades":[]},
-			{"id":552, "name":"Support Card - Spotter Drones", 			  "pts":2, "units":"Within an area of diameter 2DU all cover bonuses are ignored until the end of the round. Discard this card afterwards.", "upgrades":[]},
-			{"id":553, "name":"Card - Jamming",                      "pts":3, "units":"Reroll up to 4 dice from the opponent's Activation Dice unspent pile. Discard this card afterwards.", "upgrades":[]},
-			{"id":554, "name":"Support Card - Mortar Fire",                  "pts":6, "units":"The Activation Dice used must be three of a kind.", "upgrades":[]},
-			{"id":555, "name":"Card - Guided Missile",               "pts":2, "units":"The target must be in line of sight with one Scout Unit and cannot be an Infantry Unit.", "upgrades":[]}
+			{"id":549, "name":"Support Card - Strafing Run", 		          "pts":7, "units":"Plot a 4DU-long line on the table. The Heavy Minigun targets once every unit whose bases touch it."},
+			{"id":550, "name":"Support Card - Satellite Uplink",	          "pts":3, "units":"Roll up to three Activation Dice from the spent pile. Discard this card afterwards."},
+			{"id":551, "name":"Support Card - Airstrike",		              "pts":7, "units":"Target up to two different units that are distance up to 2DU."},
+			{"id":552, "name":"Support Card - Spotter Drones", 			  "pts":2, "units":"Within an area of diameter 2DU all cover bonuses are ignored until the end of the round. Discard this card afterwards."},
+			{"id":553, "name":"Card - Jamming",                      "pts":3, "units":"Reroll up to 4 dice from the opponent's Activation Dice unspent pile. Discard this card afterwards."},
+			{"id":554, "name":"Support Card - Mortar Fire",                  "pts":6, "units":"The Activation Dice used must be three of a kind."},
+			{"id":555, "name":"Card - Guided Missile",               "pts":2, "units":"The target must be in line of sight with one Scout Unit and cannot be an Infantry Unit."}
 		]}
 	],
 	"upgrades":[
