@@ -35,8 +35,7 @@
 		{"id":18, "name":"Tank Commander",	"pts":3},
 		{"id":19, "name":"Infantry NCO",	"pts":2}
 	],
-	"formationConstraints":[
-	],
+	"formationConstraints":[],
 	"upgradeConstraints":[
 		{"max":1, "name":"Character", "from":[15,17,18,19]},
 		{"max":1, "perArmy":true, "from":[15]}
