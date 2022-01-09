@@ -2,7 +2,7 @@
 	"id":"Separatist",
 	"version":"Based on NetEA Tournament Pack 2018",
 	"by":"T1ckL35, latest edit 01-12-2021 T1ckL35",
-    "notes":["Add here"],
+  "notes":["Add here"],
 
 	"sections":[
 		{"name":"SEPARATIST DETACHMENTS", "formations":[
@@ -37,6 +37,9 @@
 		{"id":15, "name":"T Series Tactical Droid",		"pts":50},
 		{"id":17, "name":"Sith Apprentice", 	"pts":50},
 		{"id":18, "name":"Sith Lord",	"pts":100}
+	],
+	"formationConstraints":[
+		{"maxPercent":33, "name":"Thunderhawks, Navy & Titans", "from":[550,552,553]}
 	],
 	"upgradeConstraints":[
 		{"max":1, "name":"Cmdr", "from":[15,17,18]},
