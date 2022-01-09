@@ -12,22 +12,23 @@
 			{"id":533, "name":"Support Vehicle",		               "pts":3, "units":"1 base", "upgrades":[]},
 			{"id":539, "name":"Support Walker", 			           "pts":3, "units":["1 base"], "upgrades":[]},
 			{"id":544, "name":"Gunner Walker",                         "pts":3, "units":"1 base", "upgrades":[]},
-			{"id":535, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[]},
-			{"id":536, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[]},
-			{"id":538, "name":"Tank Hunter", 						   "pts":6, "units":"1 base", "upgrades":[]},
-			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[]},
-			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[]}
+			{"id":535, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[15,18]},
+			{"id":536, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[15,18]},
+			{"id":538, "name":"Tank Hunter", 						   "pts":6, "units":"1 base", "upgrades":[15,18]},
+			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[15,18]},
+			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[15]}
 		]}
 	],
 	"upgrades":[
 		{"id":15, "name":"General",		"pts":5},
 		{"id":17, "name":"Infantry Hero", 	"pts":4},
-		{"id":18, "name":"Tank Commander",	"pts":3}
+		{"id":18, "name":"Tank Commander",	"pts":3},
+		{"id":19, "name":"Infantry NCO",	"pts":3}
 	],
 	"formationConstraints":[
 	],
 	"upgradeConstraints":[
-		{"max":1, "name":"Cmdr", "from":[15,17,18]},
+		{"max":1, "name":"Cmdr", "from":[15,17,18,19]},
 		{"max":1, "perArmy":true, "from":[15]}
 	]
 
