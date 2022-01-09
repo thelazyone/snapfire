@@ -17,7 +17,6 @@
 			{"id":546, "name":"J1 Proton Cannon (Manticore [IG])",				"pts":250, "units":"3 J1 Proton Cannon stands", "upgrades":[]}
 		]},
 		{"name":"SEPARATIST FLEET", "formations":[]},
-		{"name":"SEPARATIST NAVY", "formations":[]},
 		{"name":"SEPARATIST TITAN LEGIONS", "formations":[]}
 	],
 	"upgrades":[
