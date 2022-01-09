@@ -2,7 +2,7 @@
 	"id":"Separatist",
 	"version":"Based on NetEA Tournament Pack 2018",
 	"by":"T1ckL35, latest edit 01-12-2021 T1ckL35",
-  "notes":["Add here"],
+    "notes":["Add here"],
 
 	"sections":[
 		{"name":"SEPARATIST DETACHMENTS", "formations":[
@@ -15,6 +15,22 @@
 			{"id":535, "name":"AAT Tank Company (Leman Russ Conqueror [IG])", 	"pts":290, "units": "6 AAT Tank stands", "upgrades":[]},
 			{"id":536, "name":"NR-N99 Persuader Droid Enforcer Company (Land Raider [SM])", "pts":270, "units":"3 NR-N99 Persuader Droid stands", "upgrades":[]},
 			{"id":546, "name":"J1 Proton Cannon (Manticore [IG])",				"pts":250, "units":"3 J1 Proton Cannon stands", "upgrades":[]}
+		]},
+		{"name":"SEPARATIST FLEET", "formations":[
+			{"id":550, "name":"TODO: Thunderhawk",		"pts":200, "upgrades":[]},
+			{"id":551, "name":"TODO: Landing Craft",	"pts":350, "units":"1 Landing Craft", "upgrades":[]},
+			{"id":552, "name":"TODO: Strike Cruiser", "pts":200, "upgrades":[]},
+			{"id":553, "name":"TODO: Battle Barge",		"pts":350, "upgrades":[]}
+		]},
+		{"name":"SEPARATIST NAVY", "formations":[
+			{"id":560, "name":"TODO: Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":561, "name":"TODO: Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Maurader bombers"}
+		]},
+		{"name":"SEPARATIST TITAN LEGIONS", "formations":[
+			{"id":570, "name":"TODO: Warhound", "units":"1 Warhound Class Titan",		"pts":275, "upgrades":[]},
+			{"id":571, "name":"TODO: Warhound Pack", "units":"2x Warhound Class Titan",	"pts":500, "upgrades":[]},
+			{"id":572, "name":"TODO: Reaver", "units":"1 Reaver Class Titan",	"pts":650, "upgrades":[]},
+			{"id":573, "name":"TODO: Warlord", "units":"1 Warlord Class Titan", "pts":825, "upgrades":[]}
 		]}
 	],
 	"upgrades":[
