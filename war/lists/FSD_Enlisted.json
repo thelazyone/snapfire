@@ -28,7 +28,7 @@
 	"formationConstraints":[
 	],
 	"upgradeConstraints":[
-		{"max":1, "name":"Cmdr", "from":[15,17,18,19]},
+		{"max":1, "name":"Character", "from":[15,17,18,19]},
 		{"max":1, "perArmy":true, "from":[15]}
 	]
 
