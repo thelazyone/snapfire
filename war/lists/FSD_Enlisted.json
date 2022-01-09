@@ -9,14 +9,14 @@
 			{"id":543, "name":"Infantrymen",		                   "pts":2, "units":"3 infantry bases", "upgrades":[15,17,19]},
 			{"id":532, "name":"Scouts", 		                       "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
 			{"id":534, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
-			{"id":533, "name":"Support Vehicle",		               "pts":3, "units":"1 base", "upgrades":[15,18]},
-			{"id":539, "name":"Support Walker", 			           "pts":3, "units":"1 base", "upgrades":[15]},
-			{"id":544, "name":"Gunner Walker",                         "pts":3, "units":"1 base", "upgrades":[15]},
-			{"id":535, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[15,18]},
-			{"id":536, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[15,18]},
-			{"id":538, "name":"Tank Hunter", 						   "pts":6, "units":"1 base", "upgrades":[15,18]},
-			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[15,18]},
-			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[15]}
+			{"id":533, "name":"Support Vehicle",		               "pts":3, "units":"1 base", "upgrades":[]},
+			{"id":539, "name":"Support Walker", 			           "pts":3, "units":["1 base"], "upgrades":[]},
+			{"id":544, "name":"Gunner Walker",                         "pts":3, "units":"1 base", "upgrades":[]},
+			{"id":535, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[]},
+			{"id":536, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[]},
+			{"id":538, "name":"Tank Hunter", 						   "pts":6, "units":"1 base", "upgrades":[]},
+			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[]},
+			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[]}
 		]}
 	],
 	"upgrades":[
