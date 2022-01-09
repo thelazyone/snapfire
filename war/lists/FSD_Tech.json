@@ -22,10 +22,7 @@
 			{"id":552, "name":"TODO: Strike Cruiser", "pts":200, "upgrades":[]},
 			{"id":553, "name":"TODO: Battle Barge",		"pts":350, "upgrades":[]}
 		]},
-		{"name":"SEPARATIST NAVY", "formations":[
-			{"id":560, "name":"TODO: Thunderbolt Squadron",	"pts":175, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":561, "name":"TODO: Marauder Squadron",		"pts":250, "upgrades":[], "units":"2 Maurader bombers"}
-		]},
+		{"name":"SEPARATIST NAVY", "formations":[]},
 		{"name":"SEPARATIST TITAN LEGIONS", "formations":[
 			{"id":570, "name":"TODO: Warhound", "units":"1 Warhound Class Titan",		"pts":275, "upgrades":[]},
 			{"id":571, "name":"TODO: Warhound Pack", "units":"2x Warhound Class Titan",	"pts":500, "upgrades":[]},
