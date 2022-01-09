@@ -5,7 +5,7 @@
     "notes":["Add here"],
 
 	"sections":[
-		{"name":"Enlisted Detatchments", "formations":[
+		{"name":"Enlisted Units", "formations":[
 			{"id":543, "name":"Infantrymen",		                   "pts":2, "units":"3 infantry bases", "upgrades":[15,17,19]},
 			{"id":532, "name":"Scouts", 		                       "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
 			{"id":534, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
@@ -18,7 +18,7 @@
 			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[15,18]},
 			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[15]}
 		]},
-		{"name":"Support Cards", "formations":[
+		{"name":"Enlisted Support Cards", "formations":[
 			{"id":548, "name":"Card - Direct Comand",		          "pts":1, "units":"Unpin a pinned unit under your control that can still be activated this round. Discard this card afterwards."},
 			{"id":549, "name":"Support Card - Strafing Run", 		          "pts":7, "units":"Plot a 4DU-long line on the table. The Heavy Minigun targets once every unit whose bases touch it."},
 			{"id":550, "name":"Support Card - Satellite Uplink",	          "pts":3, "units":"Roll up to three Activation Dice from the spent pile. Discard this card afterwards."},
