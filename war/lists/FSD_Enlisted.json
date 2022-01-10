@@ -5,37 +5,48 @@
     "notes":["Add here"],
 
 	"sections":[
+		{"name":"Universal Units", "formations":[
+			{"id":501, "name":"Infantrymen",			"pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
+			{"id":502"name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":503"name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":504"name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+			{"id":505"name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+		]},
+
 		{"name":"Enlisted Units", "formations":[
-			{"id":543, "name":"Infantrymen",		                   "pts":2, "units":"3 infantry bases", "upgrades":[15,17,19]},
-			{"id":532, "name":"Scouts", 		                       "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
+			{"id":532, "name":"Scouts", 		                   "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
 			{"id":534, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
-			{"id":533, "name":"Support Vehicle",		               "pts":3, "units":"1 base", "upgrades":[15,18]},
-			{"id":539, "name":"Support Walker", 			           "pts":3, "units":["1 base"], "upgrades":[15,18]},
-			{"id":544, "name":"Gunner Walker",                         "pts":3, "units":"1 base", "upgrades":[15,18]},
 			{"id":535, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[15,18]},
 			{"id":536, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[15,18]},
-			{"id":538, "name":"Tank Hunter", 						   "pts":6, "units":"1 base", "upgrades":[15,18]},
-			{"id":546, "name":"Heavy Battle Tank",					   "pts":8, "units":"1 base", "upgrades":[15,18]},
-			{"id":547, "name":"Mobile Artillery",					   "pts":6, "units":"1 base", "upgrades":[15]}
+			{"id":538, "name":"Tank Hunter", 				"pts":6, "units":"1 base", "upgrades":[15,18]},
+			{"id":546, "name":"Heavy Battle Tank",			"pts":8, "units":"1 base", "upgrades":[15,18]},
+			{"id":547, "name":"Mobile Artillery",			"pts":6, "units":"1 base", "upgrades":[15]}
 		]},
+
+		{"name":"Universal Support Cards", "formations":[
+			{"id":511, "name":"AirStrike",		        "pts":7, "units":"Support Card"},
+			{"id":512, "name":"Direct Command",		"pts":5, "units":"Support Card"},
+			{"id":512, "name":"Jamming",		        "pts":5, "units":"Support Card"},
+			{"id":513, "name":"Mortar Fire",		"pts":6, "units":"Support Card"},
+			{"id":514, "name":"Satellite Uplink",		"pts":3, "units":"Support Card"},
+			{"id":515, "name":"Strafing Run",		"pts":7, "units":"Support Card"},
+			{"id":516, "name":"Spotter Drones",		"pts":2, "units":"Support Card"},
+		]}
+
 		{"name":"Enlisted Support Cards", "formations":[
-			{"id":548, "name":"Direct Comand",		          "pts":1, "units":"Unpin a pinned unit under your control that can still be activated this round. Discard this card afterwards."},
-			{"id":549, "name":"Strafing Run", 		          "pts":7, "units":"Plot a 4DU-long line on the table. The Heavy Minigun targets once every unit whose bases touch it."},
-			{"id":550, "name":"Satellite Uplink",	          "pts":3, "units":"Roll up to three Activation Dice from the spent pile. Discard this card afterwards."},
-			{"id":551, "name":"Airstrike",		              "pts":7, "units":"Target up to two different units that are distance up to 2DU."},
-			{"id":552, "name":"Spotter Drones", 			  "pts":2, "units":"Within an area of diameter 2DU all cover bonuses are ignored until the end of the round. Discard this card afterwards."},
-			{"id":553, "name":"Jamming",                      "pts":3, "units":"Reroll up to 4 dice from the opponent's Activation Dice unspent pile. Discard this card afterwards."},
-			{"id":554, "name":"Mortar Fire",                  "pts":6, "units":"The Activation Dice used must be three of a kind."},
-			{"id":555, "name":"Guided Missile",               "pts":2, "units":"The target must be in line of sight with one Scout Unit and cannot be an Infantry Unit."}
+			{"id":555, "name":"Guided Missile",             "pts":2, "units":"Support Card"}
 		]}
 	],
+
 	"upgrades":[
 		{"id":15, "name":"General",		"pts":5},
 		{"id":17, "name":"Infantry Hero", 	"pts":4},
 		{"id":18, "name":"Tank Commander",	"pts":3},
 		{"id":19, "name":"Infantry NCO",	"pts":2}
 	],
+
 	"formationConstraints":[],
+
 	"upgradeConstraints":[
 		{"max":1, "name":"Infantry Hero", "from":[17]},
 		{"max":1, "name":"Tank Commander", "from":[18]},
