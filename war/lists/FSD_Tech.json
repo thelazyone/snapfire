@@ -3,9 +3,7 @@
 	"version":"Version 0.12",
 	"by":"T1ckL35, latest edit 09-01-2021 (dd-mm-yyyy) - T1ckL35",
     "notes":["Add here"],
-
 	"sections":[
-		
 		{"name":"Universal Units", "formations":[
 			{"id":100, "name":"Infantrymen",            "pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
 			{"id":101, "name":"Support Vehicle",        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
@@ -13,7 +11,6 @@
 			{"id":103, "name":"Support Walker",         "pts":3, "units":"1 Mech base", "upgrades":[15,18]},
 			{"id":104, "name":"Gunner Walker",          "pts":3, "units":"1 Mech base", "upgrades":[15,18]}
 		]},
-
 		{"name":"Tech Units", "formations":[
 			{"id":543, "name":"Battle Droids",			"pts":3, "units":"3 bases", "upgrades":[]},
 			{"id":532, "name":"Heavy Droids", 			"pts":4, "units":"2 bases", "upgrades":[]},
@@ -24,7 +21,6 @@
 			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base", "upgrades":[]},
 			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[]}
 		]},
-
 		{"name":"Universal Support Cards", "formations":[
 			{"id":120, "name":"AirStrike",              "pts":7, "units":"Support Card"},
 			{"id":121, "name":"Direct Command",         "pts":5, "units":"Support Card"},
@@ -34,25 +30,18 @@
 			{"id":125, "name":"Strafing Run",           "pts":7, "units":"Support Card"},
 			{"id":126, "name":"Spotter Drones",         "pts":2, "units":"Support Card"}
 		]},
-
 		{"name":"Tech Support Cards", "formations":[
 			{"id":548, "name":"Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents."},
 			{"id":549, "name":"Orbital Bombing", 		"pts":4, "units":"Discard after use."},
 			{"id":550, "name":"Software Upgrade",	    "pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards."}
 		]},
-
 		{"name":"Tech Character Cards", "formations":[
 			{"id":506, "name":"Pilot AI",			"pts":2, "units":""},
 			{"id":507, "name":"Sentient AI", 		"pts":3, "units":""},
 			{"id":508, "name":"Fire Control AI",	"pts":3, "units":""}
 		]}
 	],
-	"upgrades":[
-		{"id":15, "name":"General",		"pts":5},
-		{"id":17, "name":"Infantry Hero", 	"pts":4},
-		{"id":18, "name":"Tank Commander",	"pts":3},
-		{"id":19, "name":"Infantry NCO",	"pts":2}
-	],
+	"upgrades":[],
 	"formationConstraints":[],
 	"upgradeConstraints":[]
 }
