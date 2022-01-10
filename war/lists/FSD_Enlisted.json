@@ -41,9 +41,9 @@
 	],
 	"formationConstraints":[],
 	"upgradeConstraints":[
-		{"max":1, "name":"1 Infantry Hero", "from":[17]},
-		{"max":1, "name":"1 Tank Commander", "from":[18]},
-		{"max":1, "name":"1 Infantry NCO", "from":[19]},
+		{"max":1, "from":[17]},
+		{"max":1, "from":[18]},
+		{"max":1, "from":[19]},
 		{"max":1, "perArmy":true, "from":[15]}
 	]
 
