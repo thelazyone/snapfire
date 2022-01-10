@@ -8,43 +8,43 @@
 		
 		{"name":"Universal Units", "formations":[
 			{"id":501, "name":"Infantrymen",			"pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
-			{"id":502, "name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":503, "name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":504, "name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
-			{"id":505, "name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]}
+			{"id":502, "name":"Support Vehicle",		"pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":503, "name":"Troop Carrier",		    "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":504, "name":"Support Walker", 	    "pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+			{"id":505, "name":"Gunner Walker",          "pts":3, "units":"1 Mech base", "upgrades":[15,18]}
 		]},
 
 		{"name":"Tech Units", "formations":[
-			{"id":543, "name":"Battle Droids",		"pts":3, "units":"3 bases", "upgrades":[]},
-			{"id":532, "name":"Heavy Droids", 		"pts":4, "units":"2 bases", "upgrades":[]},
+			{"id":543, "name":"Battle Droids",			"pts":3, "units":"3 bases", "upgrades":[]},
+			{"id":532, "name":"Heavy Droids", 			"pts":4, "units":"2 bases", "upgrades":[]},
 			{"id":534, "name":"Light Spider Droids",	"pts":2, "units":"2 bases", "upgrades":[]},
 			{"id":533, "name":"Heavy Spider Droids",	"pts":4, "units":"2 bases", "upgrades":[]},
 			{"id":539, "name":"Syro Runner Rig", 		"pts":3, "units":"1 base", "upgrades":[]},
-			{"id":544, "name":"Zeno Battle Rig",        	"pts":5, "units":"1 base", "upgrades":[]},
+			{"id":544, "name":"Zeno Battle Rig",        "pts":5, "units":"1 base", "upgrades":[]},
 			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base", "upgrades":[]},
-			{"id":536, "name":"Gun Platform",           	"pts":10, "units":"1 base", "upgrades":[]}
+			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[]}
 		]},
 
 		{"name":"Universal Support Cards", "formations":[
 			{"id":511, "name":"AirStrike",		        "pts":7, "units":"Support Card"},
-			{"id":512, "name":"Direct Command",		"pts":5, "units":"Support Card"},
+			{"id":512, "name":"Direct Command",			"pts":5, "units":"Support Card"},
 			{"id":512, "name":"Jamming",		        "pts":5, "units":"Support Card"},
-			{"id":513, "name":"Mortar Fire",		"pts":6, "units":"Support Card"},
+			{"id":513, "name":"Mortar Fire",			"pts":6, "units":"Support Card"},
 			{"id":514, "name":"Satellite Uplink",		"pts":3, "units":"Support Card"},
-			{"id":515, "name":"Strafing Run",		"pts":7, "units":"Support Card"},
-			{"id":516, "name":"Spotter Drones",		"pts":2, "units":"Support Card"}
+			{"id":515, "name":"Strafing Run",			"pts":7, "units":"Support Card"},
+			{"id":516, "name":"Spotter Drones",			"pts":2, "units":"Support Card"}
 		]},
 
 		{"name":"Tech Support Cards", "formations":[
 			{"id":548, "name":"Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents."},
 			{"id":549, "name":"Orbital Bombing", 		"pts":4, "units":"Discard after use."},
-			{"id":550, "name":"Software Upgrade",	    	"pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards."}
+			{"id":550, "name":"Software Upgrade",	    "pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards."}
 		]},
 
 		{"name":"Tech Character Cards", "formations":[
 			{"id":506, "name":"Pilot AI",			"pts":2, "units":""},
 			{"id":507, "name":"Sentient AI", 		"pts":3, "units":""},
-			{"id":508, "name":"Fire Control AI",	    	"pts":3, "units":""}
+			{"id":508, "name":"Fire Control AI",	"pts":3, "units":""}
 		]}
 	],
 
