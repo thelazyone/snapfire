@@ -42,9 +42,9 @@
 		]},
 
 		{"name":"Tech Character Cards", "formations":[
-			{"id":551, "name":"Pilot AI",			"pts":2, "units":""},
-			{"id":552, "name":"Sentient AI", 		"pts":3, "units":""},
-			{"id":553, "name":"Fire Control AI",	    	"pts":3, "units":""}
+			{"id":506, "name":"Pilot AI",			"pts":2, "units":""},
+			{"id":507, "name":"Sentient AI", 		"pts":3, "units":""},
+			{"id":508, "name":"Fire Control AI",	    	"pts":3, "units":""}
 		]}
 	],
 
