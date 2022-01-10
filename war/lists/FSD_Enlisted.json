@@ -6,35 +6,35 @@
 
 	"sections":[
 		{"name":"Universal Units", "formations":[
-			{"id":501, "name":"Infantrymen",			"pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
-			{"id":502, "name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":503, "name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":504, "name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
-			{"id":505, "name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]}
+			{"id":100, "name":"Infantrymen",			"pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
+			{"id":101, "name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":102, "name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":103, "name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+			{"id":104, "name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]}
 		]},
 
 		{"name":"Enlisted Units", "formations":[
-			{"id":532, "name":"Scouts", 		                   "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
-			{"id":534, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
-			{"id":535, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[15,18]},
-			{"id":536, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[15,18]},
-			{"id":538, "name":"Tank Hunter", 				"pts":6, "units":"1 base", "upgrades":[15,18]},
-			{"id":546, "name":"Heavy Battle Tank",			"pts":8, "units":"1 base", "upgrades":[15,18]},
-			{"id":547, "name":"Mobile Artillery",			"pts":6, "units":"1 base", "upgrades":[15]}
+			{"id":200, "name":"Scouts", 		                   "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
+			{"id":201, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
+			{"id":202, "name":"Main Battle Tank - Cannon (AP)",        "pts":5, "units":"1 base", "upgrades":[15,18]},
+			{"id":203, "name":"Main Battle Tank - Energy Cannon (IC)", "pts":5, "units":"1 base", "upgrades":[15,18]},
+			{"id":204, "name":"Tank Hunter", 				"pts":6, "units":"1 base", "upgrades":[15,18]},
+			{"id":205, "name":"Heavy Battle Tank",			"pts":8, "units":"1 base", "upgrades":[15,18]},
+			{"id":206, "name":"Mobile Artillery",			"pts":6, "units":"1 base", "upgrades":[15]}
 		]},
 
 		{"name":"Universal Support Cards", "formations":[
-			{"id":511, "name":"AirStrike",		        "pts":7, "units":"Support Card"},
-			{"id":512, "name":"Direct Command",		"pts":5, "units":"Support Card"},
-			{"id":513, "name":"Jamming",		        "pts":5, "units":"Support Card"},
-			{"id":514, "name":"Mortar Fire",		"pts":6, "units":"Support Card"},
-			{"id":515, "name":"Satellite Uplink",		"pts":3, "units":"Support Card"},
-			{"id":516, "name":"Strafing Run",		"pts":7, "units":"Support Card"},
-			{"id":517, "name":"Spotter Drones",		"pts":2, "units":"Support Card"}
+			{"id":120, "name":"AirStrike",		        "pts":7, "units":"Support Card"},
+			{"id":121, "name":"Direct Command",		"pts":5, "units":"Support Card"},
+			{"id":122, "name":"Jamming",		        "pts":5, "units":"Support Card"},
+			{"id":123, "name":"Mortar Fire",		"pts":6, "units":"Support Card"},
+			{"id":124, "name":"Satellite Uplink",		"pts":3, "units":"Support Card"},
+			{"id":125, "name":"Strafing Run",		"pts":7, "units":"Support Card"},
+			{"id":126, "name":"Spotter Drones",		"pts":2, "units":"Support Card"}
 		]},
 
 		{"name":"Enlisted Support Cards", "formations":[
-			{"id":555, "name":"Guided Missile",             "pts":2, "units":"Support Card"}
+			{"id":220, "name":"Guided Missile",             "pts":2, "units":"Support Card"}
 		]}
 	],
 
