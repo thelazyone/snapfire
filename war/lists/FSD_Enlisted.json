@@ -6,11 +6,11 @@
 
 	"sections":[
 		{"name":"Universal Units", "formations":[
-			{"id":100, "name":"Infantrymen",			"pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
-			{"id":101, "name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":102, "name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":103, "name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
-			{"id":104, "name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]}
+			{"id":100, "name":"Infantrymen",            "pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
+			{"id":101, "name":"Support Vehicle",        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":102, "name":"Troop Carrier",          "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":103, "name":"Support Walker",         "pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+			{"id":104, "name":"Gunner Walker",          "pts":3, "units":"1 Mech base", "upgrades":[15,18]}
 		]},
 
 		{"name":"Enlisted Units", "formations":[
