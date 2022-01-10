@@ -47,7 +47,12 @@
 			{"id":508, "name":"Fire Control AI",	"pts":3, "units":""}
 		]}
 	],
-	"upgrades":[],
+	"upgrades":[
+		{"id":15, "name":"General",		"pts":5},
+		{"id":17, "name":"Infantry Hero", 	"pts":4},
+		{"id":18, "name":"Tank Commander",	"pts":3},
+		{"id":19, "name":"Infantry NCO",	"pts":2}
+	],
 	"formationConstraints":[],
 	"upgradeConstraints":[]
 }
