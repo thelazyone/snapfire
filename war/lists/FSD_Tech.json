@@ -47,7 +47,7 @@
 			{"id":508, "name":"Fire Control AI",	"pts":3, "units":""}
 		]}
 	],
-
+	"upgrades":[],
 	"formationConstraints":[],
 	"upgradeConstraints":[]
 }
