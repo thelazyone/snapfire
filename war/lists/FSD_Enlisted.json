@@ -30,7 +30,8 @@
 			{"id":126, "name":"Spotter Drones",         "pts":2, "units":"Support Card"}
 		]},
 		{"name":"Enlisted Support Cards", "formations":[
-			{"id":220, "name":"Guided Missile",             "pts":2, "units":"Support Card"}
+			{"id":220, "name":"Guided Missile",             "pts":2, "units":"Support Card"},
+			{"id":221, "name":"ermGuided Missile",             "pts":2, "units":"Support Card"}
 		]}
 	],
 	"upgrades":[
