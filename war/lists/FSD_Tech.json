@@ -39,7 +39,7 @@
 			{"id":548, "name":"Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents."},
 			{"id":549, "name":"Orbital Bombing", 		"pts":4, "units":"Discard after use."},
 			{"id":550, "name":"Software Upgrade",	    	"pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards."}
-		]}
+		]},
 
 		{"name":"Tech Character Cards", "formations":[
 			{"id":548, "name":"Pilot AI",			"pts":2, "units":""},
