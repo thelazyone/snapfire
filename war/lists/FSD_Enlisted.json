@@ -7,10 +7,10 @@
 	"sections":[
 		{"name":"Universal Units", "formations":[
 			{"id":501, "name":"Infantrymen",			"pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
-			{"id":502"name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":503"name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
-			{"id":504"name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
-			{"id":505"name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+			{"id":502, "name":"Support Vehicle",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":503, "name":"Troop Carrier",		        "pts":3, "units":"1 Vehicle base", "upgrades":[15,18]},
+			{"id":504, "name":"Support Walker", 			"pts":3, "units":"1 Mech base", "upgrades":[15,18]},
+			{"id":505, "name":"Gunner Walker",                      	"pts":3, "units":"1 Mech base", "upgrades":[15,18]}
 		]},
 
 		{"name":"Enlisted Units", "formations":[
@@ -30,8 +30,8 @@
 			{"id":513, "name":"Mortar Fire",		"pts":6, "units":"Support Card"},
 			{"id":514, "name":"Satellite Uplink",		"pts":3, "units":"Support Card"},
 			{"id":515, "name":"Strafing Run",		"pts":7, "units":"Support Card"},
-			{"id":516, "name":"Spotter Drones",		"pts":2, "units":"Support Card"},
-		]}
+			{"id":516, "name":"Spotter Drones",		"pts":2, "units":"Support Card"}
+		]},
 
 		{"name":"Enlisted Support Cards", "formations":[
 			{"id":555, "name":"Guided Missile",             "pts":2, "units":"Support Card"}
