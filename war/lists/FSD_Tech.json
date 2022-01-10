@@ -6,31 +6,27 @@
 
 	"sections":[
 		{"name":"Tech Units", "formations":[
-			{"id":543, "name":"Battle Droids",		    "pts":3, "units":"3 bases", "upgrades":[15,17,18]},
-			{"id":532, "name":"Heavy Droids", 		    "pts":4, "units":"2 bases", "upgrades":[15,17,18]},
-			{"id":534, "name":"Light Spider Droids",	"pts":2, "units":"2 bases", "upgrades":[15,17,18]},
-			{"id":533, "name":"Heavy Spider Droids",	"pts":4, "units":"2 bases", "upgrades":[15,17,18]},
-			{"id":539, "name":"Syro Runner Rig", 		"pts":3, "units":"1 base", "upgrades":[15,17,18]},
-			{"id":544, "name":"Zeno Battle Rig",        "pts":5, "units":"1 base", "upgrades":[15,17,18]},
-			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base", "upgrades":[15,17,18]},
-			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[15,17,18]}
+			{"id":543, "name":"Battle Droids",		"pts":3, "units":"3 bases", "upgrades":[]},
+			{"id":532, "name":"Heavy Droids", 		"pts":4, "units":"2 bases", "upgrades":[]},
+			{"id":534, "name":"Light Spider Droids",	"pts":2, "units":"2 bases", "upgrades":[]},
+			{"id":533, "name":"Heavy Spider Droids",	"pts":4, "units":"2 bases", "upgrades":[]},
+			{"id":539, "name":"Syro Runner Rig", 		"pts":3, "units":"1 base", "upgrades":[]},
+			{"id":544, "name":"Zeno Battle Rig",        	"pts":5, "units":"1 base", "upgrades":[]},
+			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base", "upgrades":[]},
+			{"id":536, "name":"Gun Platform",           	"pts":10, "units":"1 base", "upgrades":[]}
 		]},
 		{"name":"Tech Support Cards", "formations":[
-			{"id":548, "name":"Support Card - Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents."},
-			{"id":549, "name":"Support Card - Orbital Bombing", 		"pts":4, "units":"Discard after use."},
-			{"id":550, "name":"Support Card - Software Upgrade",	    "pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards."}
+			{"id":548, "name":"Orbital Deployment",		"pts":2, "units":"Deploy a Spider Drone Unit at more than 2DU distance from opponents."},
+			{"id":549, "name":"Orbital Bombing", 		"pts":4, "units":"Discard after use."},
+			{"id":550, "name":"Software Upgrade",	    	"pts":1, "units":"Switch two Characters from two units you control, or move one Character from a Unit to another. Discard this card afterwards."}
+		]}
+		{"name":"Tech Character Cards", "formations":[
+			{"id":548, "name":"Pilot AI",			"pts":2, "units":""},
+			{"id":549, "name":"Sentient AI", 		"pts":3, "units":""},
+			{"id":550, "name":"Fire Control AI",	    	"pts":3, "units":""}
 		]}
 	],
-	"upgrades":[
-		{"id":15, "name":"Character Card - Pilot AI",		"pts":2},
-		{"id":17, "name":"Character Card - Sentient AI", 	"pts":3},
-		{"id":18, "name":"Character Card - Fire Control AI",	"pts":3}
-	],
-	"formationConstraints":[],
-	"upgradeConstraints":[
-		{"max":1, "name":"Pilot AI", "from":[15]},
-		{"max":1, "name":"Sentient AI", "from":[17]},
-		{"max":1, "name":"Fire Control AI", "from":[18]}
-	]
 
+	"formationConstraints":[],
+	"upgradeConstraints":[]
 }
