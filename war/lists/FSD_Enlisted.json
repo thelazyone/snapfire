@@ -3,7 +3,6 @@
 	"version":"Version 0.12",
 	"by":"T1ckL35, latest edit 09-01-2021 (dd-mm-yyyy) - T1ckL35",
     "notes":["Add here"],
-
 	"sections":[
 		{"name":"Universal Units", "formations":[
 			{"id":100, "name":"Infantrymen",            "pts":2, "units":"3 Infantry bases", "upgrades":[15,17,19]},
@@ -12,7 +11,6 @@
 			{"id":103, "name":"Support Walker",         "pts":3, "units":"1 Mech base", "upgrades":[15,18]},
 			{"id":104, "name":"Gunner Walker",          "pts":3, "units":"1 Mech base", "upgrades":[15,18]}
 		]},
-
 		{"name":"Enlisted Units", "formations":[
 			{"id":200, "name":"Scouts", 		                   "pts":3, "units":"2 armoured infantry bases", "upgrades":[15,17,19]},
 			{"id":201, "name":"Armoured Infantry",	                   "pts":4, "units":"2 scout bases", "upgrades":[15,17,19]},
@@ -22,7 +20,6 @@
 			{"id":205, "name":"Heavy Battle Tank",			"pts":8, "units":"1 base", "upgrades":[15,18]},
 			{"id":206, "name":"Mobile Artillery",			"pts":6, "units":"1 base", "upgrades":[15]}
 		]},
-
 		{"name":"Universal Support Cards", "formations":[
 			{"id":120, "name":"AirStrike",              "pts":7, "units":"Support Card"},
 			{"id":121, "name":"Direct Command",         "pts":5, "units":"Support Card"},
@@ -32,21 +29,17 @@
 			{"id":125, "name":"Strafing Run",           "pts":7, "units":"Support Card"},
 			{"id":126, "name":"Spotter Drones",         "pts":2, "units":"Support Card"}
 		]},
-
 		{"name":"Enlisted Support Cards", "formations":[
 			{"id":220, "name":"Guided Missile",             "pts":2, "units":"Support Card"}
 		]}
 	],
-
 	"upgrades":[
 		{"id":15, "name":"General",		"pts":5},
 		{"id":17, "name":"Infantry Hero", 	"pts":4},
 		{"id":18, "name":"Tank Commander",	"pts":3},
 		{"id":19, "name":"Infantry NCO",	"pts":2}
 	],
-
 	"formationConstraints":[],
-
 	"upgradeConstraints":[
 		{"max":1, "name":"Infantry Hero", "from":[17]},
 		{"max":1, "name":"Tank Commander", "from":[18]},
