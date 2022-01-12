@@ -12,14 +12,14 @@
 			{"id":104, "name":"Gunner Walker",          "pts":3, "units":"1 Mech base"}
 		]},
 		{"name":"Tech Units", "formations":[
-			{"id":543, "name":"Battle Droids",			"pts":3, "units":"3 bases", "upgrades":[]},
-			{"id":532, "name":"Heavy Droids", 			"pts":4, "units":"2 bases", "upgrades":[]},
-			{"id":534, "name":"Light Spider Droids",	"pts":2, "units":"2 bases", "upgrades":[]},
-			{"id":533, "name":"Heavy Spider Droids",	"pts":4, "units":"2 bases", "upgrades":[]},
-			{"id":539, "name":"Syro Runner Rig", 		"pts":3, "units":"1 base", "upgrades":[]},
-			{"id":544, "name":"Zeno Battle Rig",        "pts":5, "units":"1 base", "upgrades":[]},
-			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base", "upgrades":[]},
-			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base", "upgrades":[]}
+			{"id":543, "name":"Battle Droids",			"pts":3, "units":"3 bases"},
+			{"id":532, "name":"Heavy Droids", 			"pts":4, "units":"2 bases"},
+			{"id":534, "name":"Light Spider Droids",	"pts":2, "units":"2 bases"},
+			{"id":533, "name":"Heavy Spider Droids",	"pts":4, "units":"2 bases"},
+			{"id":539, "name":"Syro Runner Rig", 		"pts":3, "units":"1 base"},
+			{"id":544, "name":"Zeno Battle Rig",        "pts":5, "units":"1 base"},
+			{"id":535, "name":"Socrates Battle Rig", 	"pts":8, "units":"1 base"},
+			{"id":536, "name":"Gun Platform",           "pts":10, "units":"1 base"}
 		]},
 		{"name":"Universal Support Cards", "formations":[
 			{"id":120, "name":"AirStrike",              "pts":7, "units":"Support Card"},
