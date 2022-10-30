@@ -134,6 +134,52 @@ var ArmyforgeUI = {
 		return new Element('div', {'class':'listDiv'}).update(newTable);
 	},
 
+	
+	createMenuUpgrades:function(name, items) {
+		// var newTable = new Element('table').update(
+		// 	new Element('tr').update(
+		// 		new Element('th', {colspan:2}).update(name) ));		
+
+
+		var newTable = new Element('table');
+
+				// var newTable = document.createElement('table')
+		// const caption = document.createElement('caption');
+		// const captiontext = document.createTextNode(name);
+		// const mainRow = new Element('tr')
+		
+		const col2 = new Element('td')
+
+		// If no items, writing "none"
+		if (items.length < 1) {	
+			var listItem = new Element('tr', {'class':'listItem even'});
+			listItem.append(new Element('td', {'class':'inactive'}).update('None a vailable'));
+			col2.insert(listItem);		
+		};		
+
+		// Adding items to each row. Each item contains two columns (name and pts)
+		items.each(function(i) {
+			col2.insert(i);
+		});
+
+		// interlaced grey and white rows, old table style
+		col2.childElements().eachSlice(2, function(x) {
+			x[0].removeClassName('even');
+		});
+
+		// Creating the image
+		const col1 = new Element('td')
+		// const imageElem = document.createElement("img")
+		const imageElem = new Image(250)
+		imageElem.src = "./assets/cards/Infantrymen.jpg"
+		col1.appendChild(imageElem)
+
+		mainRow = document.createElement('tr').update(col1)
+		mainRow.insert(col2)
+		newTable.appendChild(mainRow)
+		return new Element('div', {'class':'listDiv'}).update(newTable);
+	},
+
 	createSwapPopup:function(formation, upgrades, upgradeType) {
 		var menuItems = [];
 		upgrades.each(function(x) {
@@ -179,7 +225,7 @@ var ArmyforgeUI = {
 					ArmyforgeUI.wrapActivatableHandler(menuItem, ArmyforgeUI.addUpgrade)
 						.bindAsEventListener(this, formation, u));
 		});
-		var menu = ArmyforgeUI.createMenu('UPGRADES',menuItems);
+		var menu = ArmyforgeUI.createMenuUpgrades('UPGRADES',menuItems);
 		var dropDown = new Element('div', {'class':'dropDown'}).update(menu);
 		dropDown.observe('click', Event.stop.bindAsEventListener(this)); // prevent bubbling up
 		return dropDown;
