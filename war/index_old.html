@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<link rel="icon" type="image/png" href="./favicon.ico">
+	<link rel="stylesheet" type="text/css" href="armyforge.css">
+	<title>Armyforge - EA Army Lists</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
+	<style>	
+#main ul li {
+	display:inline;
+	padding:0;
+}
+#main ul li a:hover {
+	color:orange;
+}
+ul li a {
+	border-right: 1px solid #404000;
+	text-align: center;
+	text-decoration:none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 138.5%;
+	color:white;
+	padding:0.4em 3em;
+	text-shadow:-1px -1px 2px #777777;
+}
+	</style>
+</head>
+<body>
+	<div id="main">
+		<p id="info">
+			Army Lists
+		</p>
+		<ul style="padding-left:0;margin-top:4em;margin-bottom:4em;">
+			<li id="fsd"><a style="border-right:none;" href="./indexFSD.html">Full Spectrum Dominance</a></li>
+		</ul> 
+	</div>
+<script type="text/javascript">
+ $('fsd').on('mouseover', function() { $('descriptions').update(
+		'Official and experimental lists for Full Spectrum Dominance'
+	);});
+ $('fsd').on('mouseout', function() { $('descriptions').update('&nbsp;<br>&nbsp;'); });
+ 
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15677589-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
