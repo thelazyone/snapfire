@@ -135,7 +135,7 @@ var ArmyforgeUI = {
 	},
 
 	
-	createMenuUpgrades:function(name, items) {
+	createMenuUpgrades:function(name, items, image) {
 		// var newTable = new Element('table').update(
 		// 	new Element('tr').update(
 		// 		new Element('th', {colspan:2}).update(name) ));		
@@ -148,7 +148,7 @@ var ArmyforgeUI = {
 		// const captiontext = document.createTextNode(name);
 		// const mainRow = new Element('tr')
 		
-		const col2 = new Element('td')
+		const col2 = new Element('td', {'class': 'col2 center'}).update("Updates")
 
 		// If no items, writing "none"
 		if (items.length < 1) {	
@@ -167,15 +167,25 @@ var ArmyforgeUI = {
 			x[0].removeClassName('even');
 		});
 
-		// Creating the image
-		const col1 = new Element('td')
-		// const imageElem = document.createElement("img")
-		const imageElem = new Image(250)
-		imageElem.src = "./assets/cards/Infantrymen.jpg"
-		col1.appendChild(imageElem)
+		mainRow = document.createElement('tr')
 
-		mainRow = document.createElement('tr').update(col1)
-		mainRow.insert(col2)
+		// Creating the image if present (expected case)
+		if (image != undefined){
+			const col1 = new Element('td', {'class': 'col1'})
+			// const imageElem = document.createElement("img")
+			const imageElem = new Image(250)
+			console.log(image)
+			imageElem.src = "./assets/cards/" + image
+			col1.appendChild(imageElem)
+
+			mainRow.update(col1)
+			mainRow.insert(col2)
+		}
+		else{
+			mainRow.update(col2)
+		}
+
+		// Finally appending to the table and returning
 		newTable.appendChild(mainRow)
 		return new Element('div', {'class':'listDiv'}).update(newTable);
 	},
@@ -225,7 +235,7 @@ var ArmyforgeUI = {
 					ArmyforgeUI.wrapActivatableHandler(menuItem, ArmyforgeUI.addUpgrade)
 						.bindAsEventListener(this, formation, u));
 		});
-		var menu = ArmyforgeUI.createMenuUpgrades('UPGRADES',menuItems);
+		var menu = ArmyforgeUI.createMenuUpgrades('UPGRADES', menuItems, formation.type.img);
 		var dropDown = new Element('div', {'class':'dropDown'}).update(menu);
 		dropDown.observe('click', Event.stop.bindAsEventListener(this)); // prevent bubbling up
 		return dropDown;
@@ -336,9 +346,6 @@ var ArmyforgeUI = {
 	},
 
 	renderFormation:function(formation) {
-
-		//alert('renderFormation');
-
 		var dropDown = ArmyforgeUI.createUpgradesPopup( formation );
 		var labelCell = new Element('td').update(formation.type.name).insert( dropDown );
 		if (formation.type.units) {
@@ -365,7 +372,6 @@ var ArmyforgeUI = {
 		formation.upgrades.uniq().each( function(x) {
 			ArmyforgeUI.renderUpgrade( formation,x );
 		});
-
 	},
 
 	renderUpgrade:function(formation, upgradeType) {

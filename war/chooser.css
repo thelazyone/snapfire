@@ -91,7 +91,7 @@ tr.mandatory > td {
 #orbatTotal {
 	vertical-align:top;
 	text-align:right;
-//s	font-weight:normal;
+	font-weight:normal;
 }
 #formationDivider {
 	border-bottom:1px dotted gray;
@@ -131,9 +131,35 @@ div.dropDown {
 	margin-left:10%;
 	margin-top:-4px;
 }
+div.dropDown .listDiv table {
+	display: flexbox;
+	vertical-align: text-top;
+	margin-left:0px;
 
-div.dropDown .listDiv table td {
-	font-weight:normal;
+}
+
+
+div.dropDown .listDiv .col1  {
+	display: inline-block;
+	border:2px solid black;
+	margin-left:0px;
+}
+
+
+div.dropDown .listDiv .col2 {
+	border:2px solid black;
+	display: inline-block;
+	text-align: center;
+	margin-left:50px;
+	padding: 0px;
+}
+
+div.dropDown .listDiv td {
+	font-weight:bolder;
+	display: inline-block;  
+	flex-direction:column;
+	margin-top: 0%;
+	vertical-align: text-top;
 }
 
 /* ARMY LISTS */
